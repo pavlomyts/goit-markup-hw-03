@@ -170,13 +170,16 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .what-do-pictures {
   display: flex;
 }
 .img-styles {
   margin-right: 30px;
+}
+.img-styles:last-child {
+  margin-right: 0px;
 }
 .footer {
   background: #2f303a;
@@ -271,6 +274,7 @@ img {
   color: #212121;
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 .team-title {
   font-weight: 500;
@@ -293,13 +297,13 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 94px;
 }
 .our-team-img-list {
   margin-right: 30px;
   border: var(--header-backgraund);
   background-color: #ffffff;
   padding-bottom: 30px;
-  margin-bottom: 94px;
 }
 
 .profession-list {
@@ -327,6 +331,9 @@ img {
 .bottom-styles {
   margin-right: 8px;
 }
+.bottom-styles:last-child {
+  margin-right: 0px;
+}
 .portfolio-title-list {
   font-weight: 700;
   font-size: 18px;
@@ -352,19 +359,24 @@ img {
   border: 1px solid #ececec;
 }
 .main-menu {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .project-net {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
+  padding-top: 34px;
 }
 .project-img-style {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
   margin-right: 30px;
+  width: 370px;
   margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+}
+.project-img-style:nth-child(3n) {
+  margin-right: 0px;
+}
+.project-img-style:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
