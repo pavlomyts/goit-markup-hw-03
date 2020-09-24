@@ -29,7 +29,6 @@ img {
   display: block;
 }
 /* HEARED */
-
 .header {
   color: var(--header-backgraund);
   display: block;
@@ -50,7 +49,6 @@ img {
   margin-left: auto;
   align-items: center;
 }
-
 .header-logo {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -66,7 +64,6 @@ img {
 .header-flex-conteiner {
   display: flex;
   height: 80px;
-  
 }
 .header-logo-second {
   font-family: var(--secondary-font);
@@ -105,7 +102,6 @@ img {
 
   height: 600px;
 }
-
 .conteiner-hero {
   margin-right: auto;
   margin-left: auto;
@@ -116,7 +112,6 @@ img {
   max-width: 696px;
   margin-bottom: 30px;
 }
-
 .button {
   font-family: var(--body-main-font);
   font-style: normal;
@@ -147,7 +142,6 @@ img {
 .padding-bottom{
   padding-bottom:94px ;
 }
-
 .flex-list {
   display: flex;
 }
@@ -180,7 +174,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .address {
   font-family: var(--body-main-font);
   font-style: normal;
@@ -221,7 +214,6 @@ img {
   padding-top: 6px;
   padding-bottom: 6px;
 }
-
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: var(--button-portfolio-backgraund);
@@ -243,7 +235,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .what-we-do-our-team {
   font-weight: 700;
   font-size: 36px;
@@ -269,8 +260,6 @@ img {
 .our-team-img {
   display: flex;
 }
-
-
 .our-team-img-list {
   margin-right: 30px;
   border: var(--header-backgraund);
